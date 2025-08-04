@@ -1,0 +1,33 @@
+{
+    "app_name": "Advanced POS System",
+    "version": "1.0.0",
+    "database": {
+        "name": "pos.db",
+        "backup_dir": "backups"
+    },
+    "ui": {
+        "theme": "light",
+        "window_size": "1024x768",
+        "min_size": "800x600"
+    },
+    "receipt": {
+        "business_name": "My Store",
+        "address": "123 Main Street",
+        "phone": "555-123-4567",
+        "email": "contact@mystore.com",
+        "website": "www.mystore.com",
+        "footer_text": "Thank you for shopping with us!",
+        "receipt_dir": "receipts"
+    },
+    "export": {
+        "default_dir": "exports"
+    },
+    "currency": "IQD",
+    "low_stock_threshold": 10,
+    "logging": {
+        "level": "INFO",
+        "file": "pos.log",
+        "max_size": 1048576,
+        "backup_count": 3
+    }
+}
